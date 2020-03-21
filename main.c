@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 
 /*
 5) Faca um programa que (usando notacao ponteiro):  
