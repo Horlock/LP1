@@ -16,7 +16,7 @@ int main(){
     scanf("%d", &buscar);
     pesquisa(buscar, pVet);
 
-
+	return 0;
 }
 
 int pesquisa(int buscar, int *pVet){
