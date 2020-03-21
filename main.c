@@ -16,12 +16,13 @@ vetor preenchido com os seguintes valores [1; 3; 6; 10; 15 ....].
 
 int main()
 {
-    int vet[6], i, *pont, valor;
+    int vet[7], i, *pont, valor;
     pont = vet;
 	printf("Digite os valores: \n");
     for(i=0;i<7;i++){
       scanf("%d",&vet[i]);
-    }  
+    }
+      
     for (i=0;i<7;i++)
     {
         printf("valor: %d -- endereco: %p\n",*(pont+i),pont+i);
